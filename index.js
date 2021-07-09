@@ -48,9 +48,6 @@ function show(){
     }
 
 }
- function hide(){
-    document.getElementById('input').style.display="none";
-    // document.getElementById('btn').innerHTML="Hide";
-}
+ 
 
 

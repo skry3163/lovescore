@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="heading">
+        <h1>Your Love Score is Here.</h1>
+    </div>
+    <div class="cont">
+        <p>The Love Calculator provides a score from 0% to 100% that is meant to be an indication of a match in terms of love, based on the names of two people. The higher the percentage, the better the match.</p>
+    </div>
+    <div id="container">
+        <div class="minicontainer">
+
+            <div id="container1"></div>
+            <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" id="visi"
+                    class="bi bi-suit-heart-fill" viewBox="0 0 16 16">
+                    <path
+                        d="M4 1c2.21 0 4 1.755 4 3.92C8 2.755 9.79 1 12 1s4 1.755 4 3.92c0 3.263-3.234 4.414-7.608 9.608a.513.513 0 0 1-.784 0C3.234 9.334 0 8.183 0 4.92 0 2.755 1.79 1 4 1z" />
+                </svg></span>
+            <div id="container2"></div><br>
+        </div>
+        <div id="mess" class="messi">Your Love Score is</div>
+        <div id="score"></div>
+        <div class="same" id="res"></div>
+    </div>
+    <div class="input">
+        <input id="name1" class="screen" type="text" placeholder="Your Name">
+        <input id="name2" class="screen" type="text" placeholder="Your Crush Name">
+    </div>
+
+    <div class="btn1">
+
+        <button id="btn" type="submit" onclick="calculate();visible();show();hide()">Show</button>
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
